@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Video</title>
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <link rel="stylesheet" href="../styling/video.css">
+
+</head>
+<body>
+<div id="nav-placeholder">
+</div>
+<video width=900  height=550 controls poster="../images/Dior.PNG">
+    <source src="../video/Thelovestoryring%20M152.mp4" type="video/mp4">
+</video>
+<footer>
+    <div id="footer-placeholder">
+    </div>
+</footer>
+</body>
+<script>
+    $(function(){
+        $("#nav-placeholder").load("navbar.html");
+    });
+    $(function(){
+        $("#footer-placeholder").load("footer.html");
+    });
+
+</script>
+</html>

@@ -1,0 +1,42 @@
+@font-face {
+    font-family: 'ItalianaRegular';
+    src: url('fonts/Italiana-Regular.ttf');
+}
+body{
+    font-family: 'ItalianaRegular', Italiana, serif !important;
+}
+h2{
+    text-align: center !important;
+}
+h1{
+    font-size: 35px;
+    font-family: 'ItalianaRegular', Italiana, serif !important;
+
+}
+
+footer {
+    position: fixed;
+    padding: 10px 10px 0px 10px;
+    bottom: 0;
+    width: 100%;
+    height: 25px;
+    background-color: #000;
+    padding-left: 150px;
+
+}
+#row2,#row1,#row3{
+    background-color: black;
+    color: white !important;
+    text-decoration: none;
+    font-family: 'ItalianaRegular', Italiana, serif !important;
+    font-size: 14px;
+    text-align: center;
+}
+a{
+    text-decoration: none !important;
+    color: rgba(0,0,0,0.8) !important;
+    font-family: 'ItalianaRegular', Italiana, serif !important;
+    font-weight: lighter !important;
+    font-size: 21px;
+}
+
